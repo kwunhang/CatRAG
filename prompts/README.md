@@ -1,0 +1,2 @@
+This folder contains the prompts needed for reproducibility of the implementation.
+`ner_query.py`, `ner.py`, `rag_qa_musique.py`, `triple_extraction.py` and `dspy_prompts/` are provided from [HippoRAG](https://github.com/OSU-NLP-Group/HippoRAG).
