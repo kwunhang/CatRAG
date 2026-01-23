@@ -2,7 +2,7 @@
 
 ### CatRAG is a RAG framework builds on the HippoRAG 2 architecture and transforms the static KG into athe query-adaptive navigation structure.
 
-This repository provides the **prompts** and **hover dataset** for the paper *Breaking the Static Graph: Context-Aware Traversal for Robust Retrieval-Augmented Generation*.
+This repository provides the **prompts** and **Hover dataset** for the paper *Breaking the Static Graph: Context-Aware Traversal for Robust Retrieval-Augmented Generation*.
 
 Code will be released in a later update.
 
@@ -27,7 +27,7 @@ Code will be released in a later update.
 - `reproduce/`  
   Evaluation dataset files (queries, documents/corpus references, and ground truth where applicable).
 
-- `images`  
+- `images/`  
   Images used in this repository.
 
 - `README.md`  
