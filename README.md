@@ -1,6 +1,6 @@
 <h1 align="center"> CatRAG: Context-Aware Transversal for Robust RAG </h1>
 
-### CatRAG is a RAG framework builds on the HippoRAG 2 architecture and transforms the static KG into athe query-adaptive navigation structure.
+### CatRAG is a RAG framework builds on the HippoRAG 2 architecture and transforms the static KG into query-adaptive navigation structure.
 
 This repository provides the **prompts** and **Hover dataset** for the paper *Breaking the Static Graph: Context-Aware Traversal for Robust Retrieval-Augmented Generation*.
 
