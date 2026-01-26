@@ -32,3 +32,9 @@ Code will be released in a later update.
 
 - `README.md`  
   This document.
+
+## TODO:
+
+- [ ] Add CatRAG logic code 
+
+Please feel free to open an issue or PR if you have any questions or suggestions.
