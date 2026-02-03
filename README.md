@@ -33,8 +33,23 @@ Code will be released in a later update.
 - `README.md`  
   This document.
 
+## Citation
+
+If you find this work useful, please consider citing our papers:
+```
+@misc{lau2026breakingstaticgraphcontextaware,
+      title={Breaking the Static Graph: Context-Aware Traversal for Robust Retrieval-Augmented Generation}, 
+      author={Kwun Hang Lau and Fangyuan Zhang and Boyu Ruan and Yingli Zhou and Qintian Guo and Ruiyuan Zhang and Xiaofang Zhou},
+      year={2026},
+      eprint={2602.01965},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2602.01965}, 
+}
+```
 ## TODO:
 
 - [ ] Add CatRAG logic code 
 
 Please feel free to open an issue or PR if you have any questions or suggestions.
+
