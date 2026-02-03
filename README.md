@@ -13,6 +13,8 @@ Code will be released in a later update.
   <b>Comparison of graph traversal between HippoRAG 2 and CatRAG.</b> We illustrate the retrieval process for the multi-hop query “Which university did Marie Curie’s doctoral advisor attend?”. In HippoRAG 2 (top), the static graph structure causes semantic drift; probability mass is diverted to high-weight generic edges (e.g., *Marie Curie* → *Radioactivity*), missing the downstream evidence *ENS*. CatRAG (bottom) prevents this by applying (1) Symbolic Anchoring, injecting “University” as a weak seed, (2) Query-Aware Dynamic Edge Weighting, amplifying relevant paths (e.g., *Attend in ENS*) while pruning irrelevant ones, and (3) Key-Fact Passage Weight Enhancement, boosting relevant context edge strength. This steers the random walk to successfully retrieve the complete evidence chain for *ENS*.
 </p>
 
+### Check out our papers to learn more:
+* [**Breaking the Static Graph: Context-Aware Traversal for Robust Retrieval-Augmented Generation**](https://arxiv.org/abs/2602.01965)
 
 ## What is included
 
