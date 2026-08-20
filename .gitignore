@@ -1,0 +1,45 @@
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Python bytecode and environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Packaging and tool caches
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editors
+.idea/
+.vscode/
+*.swp
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+
+# CatRAG runtime artifacts and local model caches
+outputs/
+short_sum_cache/
+checkpoints/
+*.db
+*.sqlite
+*.sqlite-*
+*.pkl
+*.pickle
+*.parquet
+*.sqlite.lock
+*.log
+openie_results_*.json

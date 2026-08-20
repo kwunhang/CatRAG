@@ -1,0 +1,79 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "catrag"
+version = "0.1.0"
+description = "An independent reproduction of context-aware traversal for robust retrieval-augmented generation"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+keywords = ["rag", "retrieval-augmented-generation", "knowledge-graph", "nlp"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "filelock>=3.13",
+    "httpx>=0.27,<1",
+    "numpy>=1.26",
+    "openai>=1.91,<3",
+    "packaging>=23",
+    "pandas>=2",
+    "pyarrow>=14",
+    "pydantic>=2.10,<3",
+    "python-igraph>=0.11",
+    "tenacity>=8.5",
+    "torch>=2.1",
+    "tqdm>=4.66",
+]
+
+[project.optional-dependencies]
+local = [
+    "gritlm==1.0.2",
+    "requests>=2.31",
+    "sentence-transformers>=3",
+    "transformers>=4.45",
+]
+bedrock = [
+    "boto3>=1.34",
+    "litellm>=1.73",
+]
+offline = [
+    "transformers>=4.45",
+    "vllm>=0.6.6",
+]
+all = [
+    "boto3>=1.34",
+    "gritlm==1.0.2",
+    "litellm>=1.73",
+    "requests>=2.31",
+    "sentence-transformers>=3",
+    "transformers>=4.45",
+    "vllm>=0.6.6",
+]
+
+[project.urls]
+Homepage = "https://github.com/kwunhang/CatRAG"
+Repository = "https://github.com/kwunhang/CatRAG"
+Issues = "https://github.com/kwunhang/CatRAG/issues"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+catrag = [
+    "evaluation/*.md",
+    "prompts/dspy_prompts/*.json",
+    "prompts/templates/*.md",
+]
